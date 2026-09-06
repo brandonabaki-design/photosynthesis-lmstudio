@@ -1,0 +1,54 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+#game-container {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    border: 2px solid #000;
+    margin: 20px auto;
+    background-color: #87CEEB; /* Sky blue */
+}
+
+#player {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    transform: translateX(-50%);
+}
+
+.item {
+    position: absolute;
+    bottom: -50px; /* Start above the screen */
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.water {
+    background-color: blue;
+}
+
+.co2 {
+    background-color: red;
+}
+
+.sunlight {
+    background-color: yellow;
+}
+
+.rock {
+    background-color: gray;
+    border-radius: 15px; /* To make it look like a rock */
+}
+
+.o2 {
+    background-color: lightblue;
+}
